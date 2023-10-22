@@ -24,10 +24,10 @@ const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
   return (
     <nav className="fixed top-0 left-0 right-0 z-10 bg-[#000000] border-b border-blue-300 border-opacity-40 bg-opacity-90">
-      <div className="flex flex-wrap items-center justify-between mx-auto px-4 py-2">
+      <div className="flex flex-wrap items-center justify-between mx-auto px-20 py-4">
         <Link
           href={"/"}
-          className="text-2xl md:text-5xl text-white font-semibold"
+          className="text-4xl md:text-5xl text-white font-semibold"
         >
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-200 via-blue-400 to-purple-500">ΛV</span>
         </Link>

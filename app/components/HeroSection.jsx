@@ -17,13 +17,13 @@ const HeroSection = () => {
             <TypeAnimation
       sequence={[
         // Same substring at the start will only be typed out once, initially
-        'I\'m Andre',
+        'I\'m Andre.',
         2000, // wait 1s before replacing "Mice" with "Hamsters"
-        'I\'m a Cybersecurity Professional',
+        'I\'m a Cybersecurity Professional.',
         2000,
-        'I\'m a Front-end Developer',
+        'I\'m a Front-end Developer.',
         2000,
-        'I\'m an Ethical Hacker',
+        'I\'m an Ethical Hacker.',
         2000
       ]}
       wrapper="span"
@@ -32,7 +32,7 @@ const HeroSection = () => {
     />
           </h1>
           <p className="text-[#ADB7BE] sm:text-lg mb-6 lg:text-xl">
-            I'm an aspiring cybersecurity professional with a passion for protecting information and systems. I am currently pursuing a bachelors in Cybersecurity and information Assurance at WGU and have completed serveral certifications: Google IT Support, Google Cybersecurity, and Security+.
+            I'm a cybersecurity professional with a passion for protecting information and systems. I am currently in the process of obtaining my bachelors in Cybersecurity and information Assurance at WGU and have completed serveral certifications: Google IT Support, Google Cybersecurity, and Security+.
           </p>
 
           <div>
